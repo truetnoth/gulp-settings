@@ -2,12 +2,26 @@
 ### Рабочая среда Gulp для front-end
 
 ### Команды для установки gulp-модулей
+
+Компилятор Stylus-препроцессора
 ```
-npm install --save-dev gulp-stylus => Компилятор Stylus-препроцессора
-npm install gulp-clean-css --save-dev => Минификация CSS
-npm i --save-dev gulp-autoprefixer => Автоматическое добавление браузерные префиксов в CSS
-npm install --save-dev gulp-concat => Конкатенация файлов 
-npm i browser-sync --save-dev => Live режим работы браузера для watch
+npm install --save-dev gulp-stylus
+```
+Минификация CSS
+```
+npm install gulp-clean-css --save-dev
+```
+Автоматическое добавление браузерные префиксов в CSS
+```
+npm i --save-dev gulp-autoprefixer
+```
+Конкатенация файлов
+```
+npm install --save-dev gulp-concat
+```
+Live режим работы браузера для watch
+```
+npm i browser-sync --save-dev
 ```
 ### Команда для создания package.json («о проекте», с контроллером подключенных модулей)
 
@@ -33,5 +47,5 @@ newProject/
                └── js/
     ├── Node_modules
     ├── gulpfile.js
-    └── package.json'
+    └── package.json
 ```
