@@ -3,10 +3,14 @@
 
 ### Команды для установки gulp-модулей
 
-npm install --save-dev gulp-stylus\n
+npm install --save-dev gulp-stylus
+
 npm install gulp-clean-css --save-dev
+
 npm i --save-dev gulp-autoprefixer
+
 npm install --save-dev gulp-concat
+
 npm i browser-sync --save-dev
 
 ### Команда для создания package.json («о проекте», с контроллером подключенных модулей)
