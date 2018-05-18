@@ -25,7 +25,8 @@ gulpfile.js — создается в корневой папке проекта
 
 #### Архитектура приложения
 
-'newProject/
+```
+newProject/
     ├── app/ ──├── index.html
                ├── stylus/
                ├── css/
@@ -37,3 +38,4 @@ gulpfile.js — создается в корневой папке проекта
     ├── Node_modules
     ├── gulpfile.js
     └── package.json'
+```
