@@ -16,9 +16,12 @@ gulp.task('styl', function() {
 
 gulp.task('browserSync', function() {
 	browserSync({
-        server: {baseDir: 'app'},
+        server: { 
+            baseDir: 'app' 
+        },
         notify: false
     });
+
 });
 
 gulp.task('watch', ['browserSync', 'styl'], function() {
