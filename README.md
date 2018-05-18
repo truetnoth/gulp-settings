@@ -22,3 +22,18 @@ gulpfile.js — создается в корневой папке проекта
 команда gulp + название таска для исполнения одного таска.
 
 Команда gulp запускает дефолтный таск.
+
+#### Архитектура приложения
+
+newProject/
+    ├── app/ ──├── index.html
+               ├── stylus/
+               ├── css/
+               ├── js/
+               └── img/
+    ├── dist/──├── css/
+               ├── img/
+               └── js/
+    ├── Node_modules
+    ├── gulpfile.js
+    └── package.json
