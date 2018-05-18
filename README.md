@@ -45,7 +45,7 @@ newProject/
     ├── dist/──├── css/
                ├── img/
                └── js/
-    ├── Node_modules
+    ├── Node_modules/
     ├── gulpfile.js
     └── package.json
 ```
