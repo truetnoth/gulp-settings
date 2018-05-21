@@ -38,13 +38,15 @@ gulpfile.js — создается в корневой папке проекта
 ```
 newProject/
     ├── app/ ──├── index.html
-               ├── stylus/
-               ├── css/
-               ├── js/
-               └── img/
+    ├          ├── stylus/
+    ├          ├── css/
+    ├          ├── js/
+    ├          └── img/
+    ├           
     ├── dist/──├── css/
-               ├── img/
-               └── js/
+    ├          ├── img/
+    ├          └── js/
+    ├               
     ├── Node_modules/
     ├── gulpfile.js
     └── package.json
